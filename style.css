@@ -59,19 +59,19 @@ input {
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16);
 }
 
-#obl:checked~.container>.card1 {
+#kuriboh:checked~.container>.card1 {
     transform: rotateY(180deg) scaleX(-1);
-    background-image: url("images/obelisk.png");
+    background-image: url("images/kuriboh.jpg");
 }
 
-#ra:checked~.container>.card2 {
+#winged-kuriboh:checked~.container>.card2 {
     transform: rotateY(180deg) scaleX(-1);
-    background-image: url("images/ra.png");
+    background-image: url("images/winged-kuriboh.jpg");
 }
 
-#slifer:checked~.container>.card3 {
+#kuriboh-brothers:checked~.container>.card3 {
     transform: rotateY(180deg) scaleX(-1);
-    background-image: url("images/slifer.png");
+    background-image: url("images/kuriboh-brothers.jpg");
 }
 
 label {
